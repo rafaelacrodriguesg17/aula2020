@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Trabalhando com uma Variavel </title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Inicio React - Adicionar as Tags Script -->
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Fim React - Adicionar as Tags Script -->
+
+    <!-- Inicio React - Experimente Rapidamente JSX -->
+
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Fim React - Experimente Rapidamente JSX -->
+
+    <script type="text/babel">
+    
+        const root = document.getElementById('root');
+
+        let nome = 'Rafaela Cristina'; // • Criei uma variavel chamada "nome" e dentro dela esta o "Rafaela Cristina".
+
+        ReactDOM.render(<h3> O meu nome é: {nome} </h3>, root); // • E aqui eu pego essa variavel e mostro.
+    
+    </script>
+    
+</body>
+</html>
