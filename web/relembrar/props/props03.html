@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Props02 </title>
+    <title> Props03 </title>
 </head>
 <body>
     
@@ -25,30 +25,20 @@
 
     <script type="text/babel">
     
-        function CompA(props){
-            return(
-                <div>
-                    <p> Nome: {props.nome} </p>
-                </div>
-
-            )
-        }
-
-        class App extends React.Component{
+        class Adicao extends React.Component{
             render(){
                 return(
-                    <div>
-                        <CompA nome="Rafaela Cristina"/>
+                    <div> 
+                        <p> Resultado: {this.props.a} + {this.props.b} = {this.props.a + this.props.b}. </p>    
                     </div>
                 )
-
             }
         }
 
-    const root = document.getElementById('root');
-    // ReactDOM.render(<h3>O meu nome é : {nome}</h3>, root);  
-    // ReactDOM.render(<CompA nome="Rafaela" sobrenome="Cristina" />, root);  
-    ReactDOM.render(<App />, root);
+
+        const root = document.getElementById('root');
+        //ReactDOM.render(<h3>O meu nome é : {nome}</h3>, root);  
+        ReactDOM.render(<Adicao a={26} b={40} />, root);  
     
     </script>
     
