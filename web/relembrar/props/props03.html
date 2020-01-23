@@ -26,7 +26,9 @@
     <script type="text/babel">
     
         class Adicao extends React.Component{
-            render(){
+            render(){ 
+                /* • O termo “render prop” se refere a uma técnica de compartilhar código entre 
+                    componentes React passando uma prop cujo valor é uma função. */
                 return(
                     <div> 
                         <p> Resultado: {this.props.a} + {this.props.b} = {this.props.a + this.props.b}. </p>    
