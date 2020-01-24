@@ -13,6 +13,8 @@ function App() { // • Sempre tem que estar dentro de uma "div" se tiver mais d
 
       <Form />
 
+      <br/>
+      <br/>
       <Rodape />
      
 

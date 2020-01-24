@@ -1,14 +1,27 @@
-@import url('<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">');
+@import url('<script src="https://kit.fontawesome.com/556dcba218.js" crossorigin="anonymous"></script>');
 
-* {
+.rodape{
+    margin: 50;
     background:rgb(110, 207, 219);
 }
 
-h4 {
+.titulo-h4{
     color: rgb(255, 255, 255); 
-    font-family: 'Righteous', cursive;
+    font-family:  'Lobster Two', sans-serif;
 }
 
-p {
+.paragrafo-p{
     color: rgb(37, 37, 37);
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitulo-h6{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.palavra-a{
+    color: rgb(0, 0, 0);
 }
