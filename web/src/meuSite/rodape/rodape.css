@@ -24,4 +24,11 @@
 
 .palavra-a{
     color: rgb(0, 0, 0);
+    background-image: url('<i class="fab fa-instagram"></i>');
 }
+
+.palavra-b{
+    color: rgb(0, 0, 0);
+    background-image: url('<i class="fab fa-facebook-square"></i>');
+}
+

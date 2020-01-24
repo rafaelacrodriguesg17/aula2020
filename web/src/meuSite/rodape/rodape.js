@@ -36,8 +36,8 @@ export default function Rodape(){
                     <div class="item col-xs-12 col-lg-12">
                         <h6 className="subtitulo-h6"> © Nova Imobiliária 2019 - All Rights Reserved </h6>
                     
-                        <a className="palavra-a" href="https://pt-br.facebook.com/imobiliariadomos/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a className="palavra-a" href="https://www.instagram.com/imobiliariadomos/?hl=pt-br" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a className="palavra-a" href="https://pt-br.facebook.com/imobiliariadomos/" target="_blank"></a>
+                        <a className="palavra-b" href="https://www.instagram.com/imobiliariadomos/?hl=pt-br" target="_blank"></a>
                     
                     <br/> <br/>
                     </div>         
