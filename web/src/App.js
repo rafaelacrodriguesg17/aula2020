@@ -1,24 +1,21 @@
 import React from 'react';
-
-import CompA from './componentes/CompA'
-import CompB from './componentes/Props';
-import CompC from './componentes/State';
-import Form from './componentes/formulario/form';
 import Menu from './meuSite/navbar/menu';
+import Form from './meuSite/formulario/form';
+import Carousel from './meuSite/carousel/carousel';
+import Rodape from './meuSite/rodape/rodape';
+
 
 function App() { // • Sempre tem que estar dentro de uma "div" se tiver mais de um componente.
   return (
     <div>
-      < Form />
-      < CompA />
-      < CompB nome = "Rafaela" sobrenome = "Gonçalves" />
-      <CompC />
 
-      <hr/>
-      <hr/>
-      <hr/>
+      <Menu />
 
-      <Menu/>
+      <Form />
+
+      <Rodape />
+     
+
     </div>
   );
 }
