@@ -1,5 +1,5 @@
 import React from 'react';
-import './menu.css';
+import './src/meuSite/navbar/menu.css';
 // import {Container} from './style'
 
 export default function Menu(){
