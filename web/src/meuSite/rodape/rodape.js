@@ -31,7 +31,7 @@ export default function Rodape(){
                 </footer>
             </div>
             <div className="rodape2">
-                <footer style="background:rgb(21, 157, 175);">
+                <footer className="footer">
                     <div classname="container"/>
                     <br/>
                     <div className="row view-group text-center">

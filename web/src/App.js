@@ -10,11 +10,14 @@ function App() { // • Sempre tem que estar dentro de uma "div" se tiver mais d
     <div>
 
       <Menu />
+      {/*
+      <Carousel />
 
-      <Form/>
+      <Form />
 
-      {/* <br/>
       <br/>
+      <br/>
+      
       <Rodape /> */}
      
 
