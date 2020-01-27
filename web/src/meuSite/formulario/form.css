@@ -1,6 +1,12 @@
-.div{
-    text-align: center;
-    background-color: blueviolet;
-    color: #ffffff;
+@import url('<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">');
 
+.formulario{
+    text-align: center;
+    background-color: rgb(24, 86, 156);
+    color: #e9e3e3;
+
+}
+
+.escrita{
+    font-family: 'Lobster Two', sans-serif;
 }

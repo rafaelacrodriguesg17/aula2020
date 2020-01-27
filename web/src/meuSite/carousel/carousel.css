@@ -7,12 +7,9 @@
 
 .carousel{
     background-color: blueviolet;
+    padding: 25px 25px;
     width: 1366;
     height: 346;
-}
-
-ul{
-    padding: 25px 25px;
 }
 
 .imagem01{

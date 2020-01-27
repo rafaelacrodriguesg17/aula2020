@@ -2,9 +2,14 @@
 @import url('<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">');
 @import url('<script src="https://kit.fontawesome.com/556dcba218.js" crossorigin="anonymous"></script>');
 
-.rodape{
+.rodape1{
     margin: 50;
-    background:rgb(110, 207, 219);
+    background:rgb(180, 108, 144);
+}
+
+.rodape2{
+    margin: 50;
+    background:rgb(34, 17, 25);
 }
 
 .titulo-h4{

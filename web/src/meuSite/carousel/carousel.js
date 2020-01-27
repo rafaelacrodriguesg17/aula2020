@@ -18,33 +18,33 @@ export default function Carousel(){
                 <div class="carousel-item active"/>
                 <img src={Imagem01}></img>
             <div class="carousel-caption d-none d-md-block">
-                <h5 className="subtitulo-h5">First slide label</h5>
-                <p className="paragrafo-p">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5 className="subtitulo-h5"> 10 Picolés </h5>
+                <p className="paragrafo-p">Tudo por R$6,00. Venha aproveitar!</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src={Imagem02}></img>
             <div class="carousel-caption d-none d-md-block">
-                <h5 className="subtitulo-h5">Second slide label</h5>
-                <p className="paragrafo-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 className="subtitulo-h5"> Sorvetes </h5>
+                <p className="paragrafo-p"> Dois sorvetes por R$15,00. Venha conferir! </p>
             </div>
         </div>
         <div class="carousel-item">
             <img src={Imagem03}></img>
             <div class="carousel-caption d-none d-md-block">
-                <h5 className="subtitulo-h5">Third slide label</h5>
-                <p className="paragrafo-p">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h5 className="subtitulo-h5"> Quarta da alegria </h5>
+                <p className="paragrafo-p"> Toda quarta-feira uma promoção + entrega. Fique atento em nossas redes sociais! </p>
             </div>
         </div>
   
         <div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Próximo</span>
             </a>
         </div>
         

@@ -11,7 +11,7 @@ function App() { // • Sempre tem que estar dentro de uma "div" se tiver mais d
 
       <Menu />
 
-      <Carousel />
+      <Form/>
 
       {/* <br/>
       <br/>
