@@ -1,5 +1,9 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">');
+@import url('<script src="https://kit.fontawesome.com/556dcba218.js" crossorigin="anonymous"></script>');
+
 .menu{
     position: relative;
+    overflow: auto;
 }
 ul {
     list-style-type: none;
@@ -12,16 +16,11 @@ ul {
   
   li {
     float: left;
+    padding: 10px 10px;
   }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #aa109d;
+
+  .empresa{
+    float: left;
+    color: rgb(19, 169, 214);
+    font-family:  'Lobster Two', sans-serif;
   }

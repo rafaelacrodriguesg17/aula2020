@@ -1,3 +1,42 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">');
+@import url('<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">');
+@import url('<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>');
+@import url('<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>');
+@import url('<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>');
+
 .carousel{
     background-color: blueviolet;
+    width: 1366;
+    height: 346;
+}
+
+ul{
+    padding: 25px 25px;
+}
+
+.imagem01{
+    width: 1366;
+    height: 346;
+}
+
+.imagem02{
+    width: 1366;
+    height: 346;
+}
+
+.imagem03{
+    width: 1366;
+    height: 346;
+}
+
+
+.subtitulo-h5{
+    color: cyan;
+    font-family:  'Lobster Two', sans-serif;
+}
+
+.paragrafo-p{
+    color: cyan;
+    font-family: 'Poppins', sans-serif;
 }

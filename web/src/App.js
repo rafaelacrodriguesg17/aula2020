@@ -11,11 +11,11 @@ function App() { // • Sempre tem que estar dentro de uma "div" se tiver mais d
 
       <Menu />
 
-      <Form />
+      <Carousel />
 
+      {/* <br/>
       <br/>
-      <br/>
-      <Rodape />
+      <Rodape /> */}
      
 
     </div>
